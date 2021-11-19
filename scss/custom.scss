@@ -1,0 +1,27 @@
+$primary: rgb(255, 122, 89);
+$secondary: rgb(214, 255, 212);
+$success: rgb(157, 235, 69);
+$info: rgb(103, 218, 160);
+$warning: rgb(93, 197, 201);
+$danger: rgb(161, 64, 173);
+
+
+$spacer: 1.1rem;
+$font-size-base: 1rem;
+$h2-font-size: $font-size-base * 3.5; 
+$link-danger: $danger;
+
+$enable-validation-icons: false;
+$enable-rounded: true;
+$border-radius: 2rem;
+$box-shadow:  0 .5rem 1rem rgba($danger, .50);
+//$figure-caption-font-size: $large-font-size;
+$border-width: 2px;
+$border-color: $danger;
+$card-bg: $secondary;
+$card-title-spacer-y: $spacer * 3rem;
+$card-cap-bg: rgba($danger, .03);
+$card-border-width: 5px;
+$card-border-color: $info;
+
+@import "../bootstrap/scss/bootstrap";
